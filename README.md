@@ -18,6 +18,10 @@ An application that uses information from the PostgreSQL database to report:
 `git clone https://github.com/msurmenok/logs-analysis.git`
 
 ### Start Virtual Machine
+* In terminal (in vagrant folder) launch virtual machine `vagrant up`
+(The first launch requires some time to install all dependencies)
+* Connect to vm `vagrant ssh`
+* Return to project folder `cd /vagrant/logs-analysis`
 ### Download the Data
 * Use [this link](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) to download the data and unzip to the project directory.
 * Load the data to PostreSQL typing in terminal `psql -d news -f newsdata.sql`
