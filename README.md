@@ -4,8 +4,6 @@ An application that uses information from the PostgreSQL database to report:
 * Who are the most popular article authors of all time;
 * On which days did more than 1% of requests lead to errors.
 
-Data consists of three tables: articles, authors, and log.
-
 ## Running with Virtual Machine
 ### Prerequisites
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
