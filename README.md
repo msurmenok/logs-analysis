@@ -4,6 +4,8 @@ An application that uses information from the PostgreSQL database to report:
 * Who are the most popular article authors of all time;
 * On which days did more than 1% of requests lead to errors.
 
+Data consists of three tables: articles, authors, and log.
+
 ## Running with Virtual Machine
 ### Prerequisites
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
@@ -19,4 +21,7 @@ An application that uses information from the PostgreSQL database to report:
 
 ### Start Virtual Machine
 ### Download the Data
+* Use [this link](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) to download the data and unzip to the project directory.
+* Load the data to PostreSQL typing in terminal `psql -d news -f newsdata.sql`
 ### Run the Project
+Run file `python application.py`
